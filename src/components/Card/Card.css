@@ -1,0 +1,14 @@
+.card {
+  padding: 32px;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+.card-category {
+  color: black;
+}
+.card-title {
+  color: black;
+}
+.card-price {
+  display: flex;
+}
