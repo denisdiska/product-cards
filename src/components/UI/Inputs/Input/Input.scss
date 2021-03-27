@@ -1,0 +1,29 @@
+.form {
+  &__input {
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    outline: none;
+    &-err {
+      border: 1px solid #e43f3f;
+    }
+    &:hover {
+      border: 1px solid #4bcfa0;
+    }
+  }
+  &__label {
+    display: flex;
+    flex-direction: column;
+    color: #e43f3f;
+    margin-bottom: 16px;
+    &-text {
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0;
+      text-align-last: left;
+    }
+    &-img {
+      margin-bottom: 3px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { AppContextProvider } from "./context/appContext";
 
-import "./App.css";
+import "./App.scss";
 import { Cards } from "./pages/Cards";
 
 function App() {

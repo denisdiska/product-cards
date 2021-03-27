@@ -1,0 +1,38 @@
+.card {
+  padding: 32px;
+  border-radius: 24px;
+  background-color: #ffffff;
+
+  &-category {
+    margin: 0;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  &-name {
+    padding-top: 8px;
+    padding-bottom: 40px;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+  }
+  &-content {
+    display: flex;
+    &__badge {
+      padding-top: 13px;
+      font-size: 30px;
+    }
+    &__price {
+      margin: 0;
+      font-size: 60px;
+      line-height: 72px;
+    }
+    &__btn {
+      margin-left: auto;
+    }
+  }
+}
